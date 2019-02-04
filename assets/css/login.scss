@@ -1,0 +1,62 @@
+body {
+    section.content {
+        .row {
+            >div {
+                padding: 0;
+            }
+
+            .card {
+                width: 100%;
+                max-width: 27rem;
+                margin: auto;
+                margin-top: 14rem;
+                border-radius: 0;
+                border: none;
+
+                .card-header {
+                    background-color: #405f89;
+                    color: #fff;
+                    border-radius: 0;
+                    padding: 1.25rem 1.25rem;
+                    border: none;
+
+                    h1 {
+                        font-size: 1rem;
+                        font-weight: normal;
+                        margin-bottom: .4rem;
+                    }
+
+                    p {
+                        margin-bottom: 0;
+                        font-size: 0.7rem;
+                        font-weight: 300;
+                    }
+                }
+
+                .card-body {
+                    background-color: #516497;
+
+                    form {
+                        input.form-control {
+                            font-size: .8rem;
+                        }
+
+                        a.btn {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .overlay {
+        background-color: #757ec9;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}

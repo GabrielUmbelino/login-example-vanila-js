@@ -1,0 +1,55 @@
+body section.content .row > div {
+  padding: 0;
+}
+
+body section.content .row .card {
+  width: 100%;
+  max-width: 27rem;
+  margin: auto;
+  margin-top: 14rem;
+  border-radius: 0;
+  border: none;
+}
+
+body section.content .row .card .card-header {
+  background-color: #405f89;
+  color: #fff;
+  border-radius: 0;
+  padding: 1.25rem 1.25rem;
+  border: none;
+}
+
+body section.content .row .card .card-header h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: .4rem;
+}
+
+body section.content .row .card .card-header p {
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+body section.content .row .card .card-body {
+  background-color: #516497;
+}
+
+body section.content .row .card .card-body form input.form-control {
+  font-size: .8rem;
+}
+
+body section.content .row .card .card-body form a.btn {
+  width: 100%;
+}
+
+body .overlay {
+  background-color: #757ec9;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/*# sourceMappingURL=login.css.map */
