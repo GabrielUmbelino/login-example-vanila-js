@@ -1,4 +1,4 @@
-# Hi, this is an login form example, build with vanila js.
+# Hi, this is a login form example build with vanila js.
 
 To test valid users you can use one of the users bellow:
 
