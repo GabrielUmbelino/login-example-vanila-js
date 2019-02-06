@@ -1,4 +1,7 @@
 body {
+    -webkit-font-smoothing: antialiased;
+    font-family: Arial, sans-serif;
+
     section.content {
         .row {
             >div {
@@ -9,7 +12,7 @@ body {
                 width: 100%;
                 max-width: 27rem;
                 margin: auto;
-                margin-top: 14rem;
+                margin-top: 10rem;
                 border-radius: 0;
                 border: none;
 
@@ -31,6 +34,19 @@ body {
                         font-size: 0.7rem;
                         font-weight: 300;
                     }
+                }
+
+                .card-header:before {
+                    content: "";
+                    background-image: url("../img/padlock.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    padding: 20px 18px;
+                    display: block;
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
                 }
 
                 .card-body {
